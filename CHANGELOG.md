@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 5.0.0 (2024-12-08)
+
+
+### ⚠ BREAKING CHANGES
+
+* **astro:** migrate to new Astro Content Layer API
+
+### build
+
+* **astro:** upgrade Astro to v5 ([4dfb89f](https://github.com/soydantz/blog/commit/4dfb89fd0e96904c2836dd888e99cd2f90aff51e))
+
 ### [4.7.3](https://github.com/heydantz/blog/compare/v4.7.2...v4.7.3) (2024-12-08)
 
 ### 4.7.2 (2024-12-08)
