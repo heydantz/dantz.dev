@@ -1,7 +1,11 @@
 {
-  "name": "astro-paper",
-  "version": "4.7.0",
+  "name": "blog",
+  "version": "4.7.1",
   "private": false,
+  "author": "Dantz",
+  "contributors": [
+    "Sat Naing (Original author)"
+  ],
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -36,6 +40,7 @@
     "@types/react": "^18.3.6",
     "@typescript-eslint/parser": "^8.5.0",
     "astro-eslint-parser": "^1.0.3",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^9.10.0",
     "eslint-plugin-astro": "^1.2.4",
     "globals": "^15.9.0",
@@ -45,5 +50,10 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "typescript-eslint": "^8.5.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
