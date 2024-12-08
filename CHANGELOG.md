@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.7.3](https://github.com/heydantz/blog/compare/v4.7.2...v4.7.3) (2024-12-08)
+
 ### 4.7.2 (2024-12-08)
 
 ## [4.2.0](https://github.com/satnaing/astro-paper/compare/v4.1.0...v4.2.0) (2024-01-22)
