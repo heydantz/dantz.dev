@@ -73,6 +73,12 @@ export default function SearchBar({ searchList }: Props) {
     }
   }, [inputVal]);
 
+  useEffect(() => {
+    if (inputRef.current) {
+      inputRef.current.focus();
+    }
+  }, [inputVal]);
+
   return (
     <>
       <label className="relative block">
