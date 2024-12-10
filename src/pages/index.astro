@@ -23,7 +23,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content">
     <section id="hero">
-      <h1>Mingalaba</h1>
+      <h1>José D. Gutiérrez</h1>
       <a
         target="_blank"
         href="/rss.xml"
@@ -42,20 +42,16 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       </a>
 
       <p>
-        AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro
-        blog theme. This theme follows best practices and provides accessibility
-        out of the box. Light and dark mode are supported by default. Moreover,
-        additional color schemes can also be configured.
-      </p>
-      <p>
-        Read the blog posts or check
-        <LinkButton
+        🖖 A lo largo de 5 años he sido full-stack, he liderado equipos de
+        desarrollo y ahora construyo soluciones escalables en la nube como
+        DevOps Engineer en <LinkButton
           className="underline decoration-dashed underline-offset-4 hover:text-skin-accent"
-          href="https://github.com/satnaing/astro-paper#readme"
+          href="https://hanufit.com"
         >
-          README
-        </LinkButton> for more info.
+          HANU
+        </LinkButton>. ¿Mi misión? Guiar a otros en su camino en tecnología.
       </p>
+      <p>#cloud #javascript #build #teach #write | From VE to MX</p>
       {
         // only display if at least one social link is enabled
         socialCount > 0 && (
@@ -113,10 +109,8 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         <div class="all-posts-btn-wrapper">
           <LinkButton href="/posts/">
             All Posts
-            <svg xmlns="http://www.w3.org/2000/svg"
-              ><path
-                d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"
-              ></path>
+            <svg xmlns="http://www.w3.org/2000/svg">
+              <path d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z" />
             </svg>
           </LinkButton>
         </div>
