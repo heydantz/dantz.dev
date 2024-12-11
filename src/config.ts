@@ -7,7 +7,7 @@ export const SITE: Site = {
   desc: "",
   title: "@HeyDantz",
   ogImage: "astropaper-og.jpg",
-  lightAndDarkMode: true,
+  lightAndDarkMode: false,
   postPerIndex: 4,
   postPerPage: 3,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
@@ -35,7 +35,7 @@ export const LOGO_IMAGE = {
 export const SOCIALS: SocialObjects = [
   {
     name: "Github",
-    href: "https://github.com/soydantz",
+    href: "https://github.com/heydantz",
     linkTitle: ` ${SITE.title} on Github`,
     active: true,
   },
@@ -53,7 +53,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "LinkedIn",
-    href: "https://www.linkedin.com/in/soydantz/",
+    href: "https://www.linkedin.com/in/heydantz/",
     linkTitle: `${SITE.title} on LinkedIn`,
     active: true,
   },
@@ -61,7 +61,25 @@ export const SOCIALS: SocialObjects = [
     name: "Mail",
     href: "mailto:yourmail@gmail.com",
     linkTitle: `Send an email to ${SITE.title}`,
-    active: false,
+    active: true,
+  },
+  {
+    name: "Platzi",
+    href: "https://platzi.com/p/heydantz/",
+    linkTitle: `${SITE.title} on Platzi`,
+    active: true,
+  },
+  {
+    name: "Medium",
+    href: "https://medium.com/@heydantz",
+    linkTitle: `${SITE.title} on Medium`,
+    active: true,
+  },
+  {
+    name: "DEV",
+    href: "https://dev.to/heydantz",
+    linkTitle: `${SITE.title} on DEV`,
+    active: true,
   },
   {
     name: "X",
