@@ -1,7 +1,7 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
+  website: "https://dantz.dev/", // replace this with your deployed domain
   author: "Dantz",
   profile: "#",
   desc: "",
@@ -14,8 +14,8 @@ export const SITE: Site = {
   blogEnabled: false,
   showArchives: false,
   editPost: {
-    url: "https://github.com/satnaing/astro-paper/edit/main/src/content/blog",
-    text: "Suggest Changes",
+    url: "https://github.com/heydantz/dantz.dev/edit/main/src/content/blog",
+    text: "Sugerir Cambios",
     appendFilePath: true,
   },
 };
